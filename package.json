@@ -2,7 +2,7 @@
   "name": "react-sigma-benjie",
   "description": "Lightweight but powerful library for drawing network graphs built on top of dunnock/react-sigma",
   "author": "Benjie Tong <bt2414@columbia.edu>",
-  "version": "1.1.32",
+  "version": "1.1.33",
   "license": "MIT",
   "bugs": "https://github.com/bt2414/react-sigma/issues",
   "homepage": "https://github.com/bt2414/react-sigma",

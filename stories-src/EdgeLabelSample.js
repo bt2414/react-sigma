@@ -4,7 +4,8 @@ import {
   RandomizeNodePositions,
   RelativeSize,
   EdgeShapes,
-  ForceAtlas2
+  ForceAtlas2,
+  DragNodes
 } from '../src/index';
 
 const graph_2 = {
@@ -17532,6 +17533,7 @@ class EdgeLabelSample extends React.PureComponent {
               <ForceAtlas2 iterationsPerRender={1} timeout={10000} />
               <RelativeSize initialSize={2} />
             </RandomizeNodePositions>
+            <DragNodes />
           </Sigma>
         </div>
       </div>

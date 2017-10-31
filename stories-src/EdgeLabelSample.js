@@ -17524,7 +17524,8 @@ class EdgeLabelSample extends React.PureComponent {
               drawEdges: true,
               drawEdgeLabels: true,
               minNodeSize: 1,
-              maxNodeSize: 10
+              maxNodeSize: 10,
+              enableEdgeHovering: true
             }}
             nodeColorMapping={this.state.nodeColorMapping}
           >
